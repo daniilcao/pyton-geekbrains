@@ -13,5 +13,5 @@ if rMin < 10:
 if rSec < 10:
     rSec = "0" + str(rSec)
 
-print("%s:%s:%s" % (rHr, rMin,rSec))
+print("%s:%s:%s" % (rHr, rMin, rSec))
 
