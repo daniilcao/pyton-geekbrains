@@ -3,7 +3,6 @@ def printUser(name, surname, year_birth, city, email, tell):
 
 
 def validData(data):
-    print(len(data))
     if len(data) <= 5 or len(data) > 6:
         return False
     else:
