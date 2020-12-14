@@ -8,4 +8,3 @@ while True:
     print(f"Res data{res_data}")
     if q == "q":
         break
-
