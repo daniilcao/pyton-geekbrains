@@ -1,2 +1,0 @@
-def Vonte:
-    print("DDDOD")
