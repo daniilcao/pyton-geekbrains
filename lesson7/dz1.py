@@ -19,7 +19,7 @@ class Matrix:
                 con += self.m[k][kk] + other.m[k][kk]
 
             resM.append(con)
-        return resM
+        return Matrix(resM)
 
 
 m1 = Matrix([1, 2, 30, 4, 5], [5, 50, 3, 2, 1], [5, 4, 3, 2, 12])
