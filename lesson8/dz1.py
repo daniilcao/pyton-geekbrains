@@ -15,9 +15,9 @@ class Data:
             print("ошибка месяц")
         if data[2] == 0:
             print("ошибка год")
-        print("Ok data")
+        return "Ok data"
 
 
 d = Data("13.9.2020")
-d.parse_data()
-d.valid_data(d)
+print(*d.parse_data())
+print(d.valid_data(d))
