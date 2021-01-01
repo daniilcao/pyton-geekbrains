@@ -2,12 +2,6 @@ class Warehouse:
     def __init__(self):
         self.all_technic = []
 
-    def set_product(self, *args):
-        for k in args:
-            self.all_technic.append(k.__dict__)
-
-    def delivery(self):
-        pass
 
 class Technic:
     def __init__(self, n, c):
@@ -32,9 +26,3 @@ class Copier(Technic):
     def __init__(self, n, c, cs):
         super(Copier, self).__init__(n, c)
         self.cop_speed = cs
-
-
-wa = Warehouse()
-
-wa.set_product(Printer('Epson i805', 10, 'Струйный'), Scanner('Sony ps1', 5, 'Лазарный'),
-               Copier('Xerox', 15, 'Очень быстрый'))
